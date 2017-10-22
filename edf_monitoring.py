@@ -67,7 +67,7 @@ def waitOneMinute ():
         date = datetime.datetime.now()
         new_min = date.minute
 
-def dateToIndex (date, wanted_month):
+def dateToIndex (date):
     index = date-2
     if index == -1:
         return 11
